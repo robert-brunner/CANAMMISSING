@@ -7,8 +7,8 @@ function App() {
   return (
     <>
     <Router>
-      <ApplicationViews/>
       <Header/>
+      <ApplicationViews/>
     </Router>
     </>
   );
