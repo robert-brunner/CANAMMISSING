@@ -9,7 +9,6 @@ function App() {
     <>
     
     <Router>
-      <HomePage/>
       <Header/>
       <ApplicationViews/>
     </Router>

@@ -1,9 +1,11 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import React from "react";
+import {Navigate, Route, Routes} from "react-router-dom";
+import { HomePage } from "../homePage/HomePage";
 
 export const ApplicationViews = () => {
   return (
     <Routes>
-      {/* Add your routes here */}
+      <Route path="/" element={<HomePage/>} />
     </Routes>
   );
 };
