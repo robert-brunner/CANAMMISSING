@@ -13,6 +13,7 @@ export const HomePage = () => {
         <img src={CanAmMissingLogo} alt="CanAmLogo" className="bckrndLogo"></img>
       </div>
         <div className="greySquare"></div>
+        <div className="whiteSquare"></div>
     </>
   );
 };

@@ -48,8 +48,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 67%;
+  opacity: 75%;
 }
 
+.whiteSquare {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Set a high z-index to ensure it's on top of everything */
+  width: 50vw;
+  min-height: 70vh;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 45px -2px #bababa;
+  filter: blur(25px);
+  opacity: 40%;
+}
 
 
