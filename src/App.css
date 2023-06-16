@@ -1,3 +1,8 @@
+
+:root{
+  overflow: hidden;
+}
+
 .homeBack {
   position: fixed;
   top: 0;
@@ -52,7 +57,7 @@
 }
 
 .whiteSquare {
-  position: fixed;
+  position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -67,4 +72,27 @@
   opacity: 40%;
 }
 
+.MainTextContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Set a high z-index to ensure it's on top of everything */
+  width: 50vw;
+  min-height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:xx-large;
+}
 
+p{
+  text-align:justify;
+  font-size:33px;
+  direction:ltr;
+  font-weight:500;
+  line-height:40px;
+ }
+ 

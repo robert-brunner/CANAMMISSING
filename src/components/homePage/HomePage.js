@@ -14,6 +14,11 @@ export const HomePage = () => {
       </div>
         <div className="greySquare"></div>
         <div className="whiteSquare"></div>
+        <div className='MainTextContainer'>
+          <p>
+          The first website dedicated to understanding the complexity and issues of searching, rescuing, and investigating people missing in the wilds throughout the world.
+          </p>
+        </div>
     </>
   );
 };
