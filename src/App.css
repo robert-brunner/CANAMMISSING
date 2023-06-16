@@ -43,6 +43,19 @@
 
 }
 
+.BrnHeader{
+  position: absolute;
+  content:'';
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 50%;
+  filter:blur(1px);
+  box-shadow:0px 0px 45px -2px #bababa;  
+}
+
 .bckrndLogo {
   top: 72%; /* Center the element vertically */
   left: 50%; /* Center the element horizontally */
@@ -61,7 +74,6 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9999; /* Set a high z-index to ensure it's on top of everything */
   width: 50vw;
   min-height: 70vh;
   background: white;
